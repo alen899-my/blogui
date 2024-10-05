@@ -7,8 +7,9 @@ import PeopleToFollow from "./components/PeopleToFollow";
 import TopicsList from "./components/TopTopics";
 import TrendsList from "./components/TrendList";
 import { BlogProvider } from "./shared/BlogContext";
-import { Blog } from "./types";
+
 import { IoMdAddCircle } from "react-icons/io";
+import { Blog } from './Types';
 
 const App = () => {
   const [isModalOpen, setModalOpen] = useState(false);

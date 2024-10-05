@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useBlogs } from "../shared/BlogContext";
-import { Blog } from "../types";
+import { Blog } from "../Types";
 
 interface BlogFormProps {
   existingBlog?: Blog;

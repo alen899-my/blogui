@@ -1,5 +1,5 @@
 import { FaBookmark, FaTrash, FaEdit } from "react-icons/fa";
-import { Blog } from "../types";
+import { Blog } from '../Types';
 
 interface ArticleCardProps {
   article: Blog;

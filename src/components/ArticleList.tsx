@@ -1,6 +1,6 @@
 import { useBlogs } from "../shared/BlogContext";
 import ArticleCard from "./ArticleCard";
-import { Blog } from "../types";
+import { Blog } from "../Types";
 
 interface ArticleListProps {
   onEdit: (blog: Blog) => void;
